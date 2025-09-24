@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "name": "GitHub精准匹配",
+      "url_pattern": "https://github.com",
+      "match_type": "exact",
+      "description": "精准匹配GitHub首页",
+      "enabled": true
+    },
+    {
+      "name": "通配符匹配",
+      "url_pattern": "*baidu.com*",
+      "match_type": "wildcard",
+      "description": "通配符匹配所有GitHub相关页面",
+      "enabled": true
+    },
+    {
+      "name": "关键词匹配",
+      "url_pattern": "360",
+      "match_type": "keyword",
+      "description": "匹配包含编程相关关键词的网站",
+      "enabled": true
+    },
+    {
+      "name": "开发文档正则匹配",
+      "url_pattern": "^https?://[^/]*\\.(com|org)/(docs?|api|developer?)(/.*)?$",
+      "match_type": "regex",
+      "description": "使用正则表达式匹配开发文档页面",
+      "enabled": true
+    }
+  ]
+}

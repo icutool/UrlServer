@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "URL Sender",
+  "version": "1.0",
+  "description": "每次打开新网址时发送到本地接口",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
