@@ -3,6 +3,9 @@
 一个Windows平台的URL监控服务，用于根据配置规则匹配URL并自动切换输入法状态。
 配合谷歌插件即可实现:打开规则的网址自动切换英文输入法
 
+## 演示
+<img src="https://raw.githubusercontent.com/icutool/img/main/switch.gif">
+
 ## 功能特性
 
 - 接收URL请求并根据配置文件进行规则匹配
